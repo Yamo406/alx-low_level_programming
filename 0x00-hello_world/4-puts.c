@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-
+/**
+ * main function
+ * return always 0
+ */
 int main(void)
 {
-	char words[150] = {Programming is like building a multilingual puzzle}; 
-	puts(words[]);	
+	puts("\"Programming is like building a multilingual puzzle\n");
+	return(0);
 }
