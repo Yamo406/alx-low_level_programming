@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main function
- * return always 0
+ * main function has the puts function inside of it.
+ * returns the value of  0
  */
 int main(void)
 {
