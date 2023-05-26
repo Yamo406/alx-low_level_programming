@@ -2,7 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-#include "2-largest_number.c"
 void positive_or_negative(int i)
 {
 	if (i > 0)
@@ -18,6 +17,24 @@ void positive_or_negative(int i)
 		printf("%d is negative\n", i);
 	}
 }
-int largest_number(int a, int b, int c);
+int largest_number(int a, int b, int c)
+{
+    int largest;
+
+    if (a > b && b > c)
+    {
+        largest = a;
+    }
+    else if (b > a && a > c)
+    {
+        largest = b;
+    }
+    else if (c > a && a > b)
+    {
+        largest = c;
+    }
+
+    return (largest);
+}
 
 #endif /* MAIN_H */
