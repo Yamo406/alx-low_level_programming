@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - multiple function
@@ -14,5 +13,4 @@ int mul(int a, int b)
 	result = a * b;
 
 	return (result);
-	_putchar('\n');
 }
